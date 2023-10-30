@@ -1,0 +1,26 @@
+.fileUploader {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-around;
+}
+
+.fileUploaderPreview {
+  width: 200px;
+  border: 1px dashed grey;
+  border-radius: 12px;
+  margin: 10px;
+  background-color: beige;
+}
+
+.fileUploaderButton p {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .fileUploader {
+    display: block;
+    text-align: center;
+  }
+}

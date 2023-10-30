@@ -1,0 +1,21 @@
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #112d49;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.react-time-picker__wrapper {
+  border: none;
+  width: 100%;
+}
+
+div.ReactModal__Content {
+  display: flex;
+  flex-direction: column;
+}

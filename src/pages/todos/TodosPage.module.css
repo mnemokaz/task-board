@@ -1,0 +1,28 @@
+.TodosPage {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: minmax(100px, auto) auto minmax(100px, auto);
+  grid-template-rows: minmax(100px, auto) auto minmax(100px, auto);
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 60px;
+  row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+@media (max-width: 500px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+}

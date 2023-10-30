@@ -1,0 +1,11 @@
+.expirationDate {
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  width: 125px;
+  background-color: #dadce3b5;
+}
+
+.expirationDate:hover {
+  cursor: pointer;
+}
